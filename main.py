@@ -1,7 +1,7 @@
 def check_available():
 	return 'It Works!'
 
-def split_odd(nums=[1,2,3,4]):
+def split_odd_even(nums = [1, 2, 3, 4]):
 	odds = []
 	evens = []
 	for i in nums:
@@ -14,4 +14,4 @@ def split_odd(nums=[1,2,3,4]):
 
 if __name__ == '__main__':
     	#print(check_available())
-    	print(split_odd())
+    	print(split_odd_even())
